@@ -2,10 +2,13 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    background-color: #000;
     font-family: 'Inter', sans-serif;
     font-family: 'Poppins', sans-serif;
   }
+
+body{
+  background-color: #000;
+}
   
   .img1 {
     height: 60px;
@@ -84,6 +87,34 @@ width: 463px;
 }
 
 .poemas3 .content p{
-  margin-top: 30px;
+  margin-top: 40px;
   text-align: left;
 }
+
+.poema4{
+  margin-top: 60px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  gap: 130px;
+  }
+.poema4.content h1{
+  text-align: center;
+}
+  .poema4 .content{
+    color: #fff;
+  text-align: left;
+  width: 523px;
+  text-align: center;
+  }
+
+  .poema4 .content p{
+    margin-top: 40px;
+    text-align: right;
+  }
+
+  footer img{
+    width: 100%;
+    margin-top: 40px;
+    height: 202px;
+  }
